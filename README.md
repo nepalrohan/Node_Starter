@@ -85,3 +85,11 @@ OR if you want to run command then do this:
  ```
  By doing this, you will get a config.json file inside `src/config`
 
+
+
+ -Now to run the server execute:
+ ```
+ npm run dev
+ ```
+ 
+
