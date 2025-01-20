@@ -33,7 +33,7 @@ Insided `src/config` then, create a new config.json  file and write these code a
 
 
 
-        ```
+```
 {
   "development": {
     "username": "root",
@@ -57,7 +57,7 @@ Insided `src/config` then, create a new config.json  file and write these code a
     "dialect": "mysql"
   }
 }
-   ```
+ ```
 
 
 
