@@ -30,6 +30,10 @@ Lets have a look at `src` folder:
 
 
 Insided `src/config` then, create a new config.json  file and write these code and fill your username, password, dbname, etc;
+
+
+
+        ```
 {
   "development": {
     "username": "root",
@@ -53,3 +57,8 @@ Insided `src/config` then, create a new config.json  file and write these code a
     "dialect": "mysql"
   }
 }
+   ```
+
+
+
+Do setting if you are in development mode with the informations that needed.
