@@ -26,7 +26,21 @@ Lets have a look at `src` folder:
 
 
 
+### Setup the project
 
+-Download the template and go inside your folder and run this command:
+```
+npm install
+```
+
+`In your root direectory crate a `.env` file and add env variables:
+```
+PORT="YOUR_PORT_NUMBER"
+```
+eg:
+```
+PORT=3000
+```
 
 
 Insided `src/config` then, create a new config.json  file and write these code and fill your username, password, dbname, etc;
@@ -62,3 +76,12 @@ Insided `src/config` then, create a new config.json  file and write these code a
 
 
 Do setting if you are in development mode with the informations that needed.
+
+
+OR if you want to run command then do this:
+ - go inside `src` and execute the command:
+ ```
+ npx sequelize init
+ ```
+ By doing this, you will get a config.json file inside `src/config`
+
